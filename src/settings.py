@@ -1,0 +1,48 @@
+################################################ SETTINGSS OF PLANISUSS ################################################
+
+# World settings
+NUMCELL = 50
+COLOR_WATER = [1, 0.85, 0]
+COLOR_MAX_VEGETOB = [0.33, 0.42, 0.18]
+COLOR_CARVIZ = [1, 0, 0]
+COLOR_PRIDE = [1, 0.37, 0.6]
+COLOR_ERBAST = [0, 0, 1]
+COLOR_HERD = [0.20, 0.48, 0.98]
+COLOR_EARTH = [0.4, 0.24, 0.08]
+MAX_DAY_STORAGE = 15
+
+
+# Animal settings (general)
+MIN_ENERGY = 40
+MAX_ENERGY = 85
+MIN_AGE = 80
+MAX_AGE = 100
+MAX_SOCIALNESS = 10
+MAX_GROUP_SIZE = 20
+
+
+# Carviz settings (specific)
+MOV_ENERGY_LOSS_C = 1
+CAR_EAT_ENERGY_GAIN = 2
+ERB_EAT_ENERGY_GAIN = 6
+FIGHT_ENERGY_LOSS_C = 2
+SPAWN_MAX_C = 6
+PERC_STARVING_C = 0.2
+PERC_STARVING_P = 0.35
+MAX_BIRTH_C = 2
+
+
+# Erbast settings (specific)
+MOV_ENERGY_LOSS_E = 1
+FIGHT_ENERGY_LOSS_E = 2
+VEG_EAT_ENERGY_GAIN = 5
+SPAWN_MAX_E = 6
+PERC_STARVING_E = 0.3
+PERC_STARVING_H = 0.45
+MAX_BIRTH_E = 4
+
+
+# Vegetob settings
+MAX_DENSITY = 100
+GROWTH_RATE = 0.3
+VEGETOB_EATEN = VEG_EAT_ENERGY_GAIN + 1.33
